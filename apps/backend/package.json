@@ -1,0 +1,36 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "type": "commonjs",
+    "scripts": {
+        "dev": "ts-node src/index.ts",
+        "dev:watch": "nodemon --exec ts-node src/index.ts",
+        "prisma:seed": "ts-node prisma/seed.ts",
+        "seed": "prisma db seed",
+        "test": "jest"
+    },
+    "prisma": {
+        "seed": "ts-node prisma/seed.ts"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@types/node": "^22.19.7",
+        "jest": "^30.2.0",
+        "nodemon": "^3.1.11",
+        "prisma": "^5.15.0",
+        "supertest": "^7.2.2",
+        "ts-jest": "^29.4.6",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.2"
+    },
+    "dependencies": {
+        "@ai-sdk/google": "^3.0.10",
+        "@ai-sdk/groq": "^3.0.10",
+        "@ai-sdk/openai": "^3.0.12",
+        "@hono/node-server": "^1.19.9",
+        "@prisma/client": "^5.15.0",
+        "ai": "^6.0.39",
+        "dotenv": "^16.0.3",
+        "hono": "^4.11.4"
+    }
+}
