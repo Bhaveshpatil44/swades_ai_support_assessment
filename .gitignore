@@ -39,3 +39,5 @@ yarn-error.log*
 .vs/
 node_modules/
 dist/
+
+.vercel
