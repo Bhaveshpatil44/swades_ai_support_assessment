@@ -84,10 +84,8 @@ User → Frontend (React) → POST /api/chat/messages
 - Show reasoning / loader words ("Thinking...", "Searching...")
 - Streaming responses + typing indicator
 
-## Live Demo
-(After Vercel deploy → add link here)
 
 ## Video Walkthrough
-(Loom link → add here)
+(https://www.loom.com/share/1aaf5c4e597c420987f56ede34f22072)
 
 Made with ❤️ in ~36 hours.
