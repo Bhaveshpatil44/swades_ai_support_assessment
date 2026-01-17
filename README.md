@@ -86,6 +86,6 @@ User → Frontend (React) → POST /api/chat/messages
 
 
 ## Video Walkthrough
-(https://www.loom.com/share/1aaf5c4e597c420987f56ede34f22072)
+(https://www.loom.com/share/43712657e0f5409aad4cf7746a5184f7)
 
 Made with ❤️ in ~36 hours.
